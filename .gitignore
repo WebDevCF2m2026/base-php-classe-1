@@ -1,0 +1,4 @@
+# Sert à éviter de mettre des fichiers inutiles
+# voir dangereux sur github 
+# VScode
+.vscode/
