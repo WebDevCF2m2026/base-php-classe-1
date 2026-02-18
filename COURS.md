@@ -48,7 +48,7 @@ Il permet aux apprenants de comprendre le flux d'exécution séquentiel, la gest
 
 ![PHP Elephpant](Data/Elephpant.png)
 
-**PHP**, acronyme récursif de **Hypertext Preprocessor**, est un langage de script utilisé le plus souvent côté serveur.
+**PHP**, acronyme récursif (ou sigle auto-référentiel) de **Hypertext Preprocessor**, est un langage de script utilisé le plus souvent côté serveur.
 
 Dans cette architecture, le serveur **interprète** le code PHP des pages web demandées et génère du code (HTML, CSS, XML, JSON, JavaScript…) et/ou des données (JPEG, GIF, PNG, SVG, PDF…) pouvant être interprétés et rendus par un **navigateur web**.
 
@@ -64,7 +64,7 @@ C'est un langage qui peut, comme au début de ce cours, être **peu typé** et s
 
 - **Libre et gratuit** : PHP est open source
 - **Multi-plateforme** : fonctionne sur Linux, Windows et macOS
-- **Simple d'installation** et d'utilisation pour un débutant
+- **Simple à installer et manipuler**  pour un débutant
 - **Améliorations constantes** : nouvelles fonctionnalités et optimisations régulières ([lien](https://endoflife.date/php))
 - **Grande communauté** : documentation abondante, forums actifs
 - **Utilisé massivement** : WordPress, Magento, Laravel, Symfony, Drupal, Joomla, etc.
