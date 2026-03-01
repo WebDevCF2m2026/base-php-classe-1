@@ -571,11 +571,11 @@ Les clés sont des **chaînes de caractères**.
 $personne = [
     "prenom" => "Michaël",
     "nom" => "Pitz",
-    "age" => 42
+    "age" => 49,
 ];
 
 echo $personne["prenom"]; // Michaël
-echo $personne["age"];    // 42
+echo $personne["age"];    // 49
 ```
 
 #### ✏️ Exercice 10
@@ -888,6 +888,8 @@ if ($temperature <= 0) {
 Le `switch` vérifie l'égalité **non stricte** d'une variable contre plusieurs cas. Plus lisible que de multiples `elseif` pour des comparaisons d'égalité.
 
 > ⚠️ Le `switch` de PHP est **non strict** (`==`), contrairement à celui de JavaScript (`===`).
+> **Attention** : sans `break`, l'exécution continue dans les cas suivants (effet de chute).
+> La syntaxe moderne de `match` (PHP 8) est strict et retourne une valeur, sans risque d'oubli de `break`. Nous verrons `match` par la suite.
 
 ```php
 <?php
