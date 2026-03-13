@@ -27,7 +27,7 @@ $stagiaires = [
 ];
 
 
-echo $stagiaires["WEBDEV03"]["Sites"]["github"];
+echo $stagiaires["WEBDEV02"]["Sites"]["github"];
 
 
 
