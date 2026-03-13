@@ -34,4 +34,4 @@ if(isset($_GET['section'])&&$_GET['section']==="demo"){
 var_dump($_GET);
     ?>
 </body>
-</html>
+</html> 
