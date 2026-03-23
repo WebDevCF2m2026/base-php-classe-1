@@ -45,4 +45,11 @@ Mettez-y des `.gitkeep` dans chaque dossier et faites des commit.
 ``` bash
 #Stagiaire\Badr\MCV-19\README.md
 
-``` 
+``` #Stagiaire\Badr\MCV-19\.gitignore
+
+# On protége nos variable et constants dangereuse 
+# du fichier config.php
+config.php
+```
+
+Créez le fichier `config.php` à la racine du projet. il est protége grace au `.gitconfig` 
