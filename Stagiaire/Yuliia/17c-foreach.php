@@ -30,6 +30,7 @@ $students =
 // inversion du tableau
 
 // View
+$students=array_reverse($students);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -49,8 +50,25 @@ $students =
             <th>email</th>
             <th>age</th>
         </thead>
-        <tbody>ICI 3 lignes avec les stagiaires en ordre inversés</tbody>
+        <tbody>
+               <?php
+         foreach ($students as $valeur) {
+     echo "<tr>";
+    echo "<td>$valeur[id]</td>";
+     echo "<td>$valeur[prenom]</td>";
+      echo "<td>$valeur[nom]</td>";
+       echo "<td>$valeur[email]</td>";
+        echo "<td>$valeur[age]</td>";
+
+    echo "</tr>";
+}   
+?>
+     </tbody>
     </table>
 
+    <?php
+
+var_dump($students);
+    ?>
 </body>
 </html>

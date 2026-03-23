@@ -1,5 +1,15 @@
 <?php
-$prenoms = ['Robin', 'Raphael', 'Soufiane', 'Bryan', 'Meidhy', 'Laetitia', 'Ines', 'Badr', 'Yuliia', 'Mickael'];
+$prenoms = [
+'Robin',
+'Bryan',
+'Raphael',
+'Soufiane',
+'Meidhy',
+'Laetitia',
+'Ines',
+'Badr',
+'Yuliia',
+'Mickael'];
 
 echo "<ul>";
 

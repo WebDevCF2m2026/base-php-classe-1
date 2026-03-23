@@ -24,7 +24,7 @@ $students =
         'age' => 26,
     ],
 ];
-
+ $students = array_reverse($students);
 // Controller
 // gère les donnée avant de les envoyer dans la View
 // inversion du tableau
@@ -49,8 +49,25 @@ $students =
             <th>email</th>
             <th>age</th>
         </thead>
-        <tbody>ICI 3 lignes avec les stagiaires en ordre inversés</tbody>
+</table>
+<table>
+ <tbody>
+            <?php foreach($students as $student): ?>
+                <tr>
+                    <td><?= $student['id'] ?></td>
+                    <td><?= $student['prenom'] ?></td>
+                    <td><?= $student['nom'] ?></td>
+                    <td><?= $student['email'] ?></td>
+                    <td><?= $student['age'] ?></td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
     </table>
 
+
+    <?php
+
+      var_dump($students);
+    ?>
 </body>
 </html>

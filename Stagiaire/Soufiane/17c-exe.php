@@ -29,6 +29,7 @@ $students =
 // gère les donnée avant de les envoyer dans la View
 // inversion du tableau
 
+$students = array_reverse($students);
 // View
 ?>
 <!DOCTYPE html>
@@ -43,14 +44,39 @@ $students =
     <h2>Avec foreach, mais en ordre inversé</h2>
     <table>
         <thead>
-            <th>id</th>
-            <th>prenom</th>
-            <th>nom</th>
-            <th>email</th>
-            <th>age</th>
+            <tr>
+
+        
+                <th>id</th>
+                <th>prenom</th>
+                <th>nom</th>
+                <th>email</th>
+                <th>age</th>
+            </tr>
         </thead>
-        <tbody>ICI 3 lignes avec les stagiaires en ordre inversés</tbody>
+        <tbody>
+            <?php foreach ($students as $array): ?>
+                <tr>
+                   <td>
+                     <?= $array["id"]?>
+                    </td>
+                    <td>
+                     <?= $array["prenom"]?>
+                     </td>
+                     <td>
+                     <?= $array["nom"]?>
+                     </td>
+                     <td>
+                     <?= $array["email"]?>
+                     </td>
+                    <td>
+                     <?= $array["age"]?>
+                   </td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
     </table>
+
 
 </body>
 </html>

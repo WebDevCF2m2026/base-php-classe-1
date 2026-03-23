@@ -28,6 +28,7 @@ $students =
 // Controller
 // gère les donnée avant de les envoyer dans la View
 // inversion du tableau
+rsort($students);
 
 // View
 ?>
@@ -49,8 +50,26 @@ $students =
             <th>email</th>
             <th>age</th>
         </thead>
-        <tbody>ICI 3 lignes avec les stagiaires en ordre inversés</tbody>
+        <tbody>
+<?php
+foreach($students as $item):
+?>
+            <tr>
+                <td><?= $item['id'] ?> </td>
+                <td><?= $item['prenom'] ?> </td>
+                <td><?= $item['nom'] ?> </td>
+                <td><?= $item['email'] ?> </td>
+                <td><?= $item['age'] ?> </td>
+            </tr>
+<?php
+endforeach;
+?>
+        </tbody>
     </table>
 
+    <?php
+    
+var_dump($students);
+    ?>
 </body>
 </html>
