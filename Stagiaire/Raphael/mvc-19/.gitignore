@@ -1,0 +1,5 @@
+# Stagiaire\Raphael/mvc-19/.gitignore
+
+# On protège nos variables et constantes dangereuses
+# du fichier config.php
+config.php
