@@ -17,10 +17,18 @@
 
 
 
-
-- Création du `.gitignore` vide (*! important*)
+- Ajouter de l'upstream (pour le pull `REQUEST`)
+- Création du `.gitignore` vide (**! important**)
 
 
 
 - dossier vide ?  `gitkeep`
 - information sur le projet ? `READMR.md`
+
+### Phase 2 
+- Creation des dossiers importants du site pourr le MVC (Model View controller)
+- Public `accessible au punlic`
+- `model` il gére l'accés aux données 
+- `view ` Dossier contanant les vues (temlates **backend**) 
+- `controlleur ` Dossier qui gére le lien entre la `view` et les `model` (entre **Backend** et **Middele-end**)
+- `datas` - nos fichiers de préparation du travail
