@@ -1,0 +1,1 @@
+<p>&copy; <?= date('Y') // année actuelle au format YYYY ?> - Portfolio Développeur PHP / React. Construit en HTML/CSS/JS natif.</p>
