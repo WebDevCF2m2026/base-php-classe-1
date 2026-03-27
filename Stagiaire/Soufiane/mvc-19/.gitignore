@@ -1,0 +1,8 @@
+#Stagiaire/Soufiane/mvc-19/.gitignore
+#on protege nos variable et les const dangeureuse
+#du fichier config.php
+config.php
+#on refuse tout les dossier de data
+datas/*
+#sauf le fichier zipper qu'on vas garder
+!datas/projet.zip
