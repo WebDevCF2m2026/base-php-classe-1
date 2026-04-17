@@ -177,14 +177,14 @@ if (isset($_POST["nom"], $_POST["email"], $_POST["message"])) {
                 <label for="nom">Nom</label>
                 <input type="text" id="nom" name="nom"
                        value="<?= htmlspecialchars($nom) ?>"
-                       placeholder="Jean Dupont">
+                       placeholder="Robin Craeye">
             </div>
 
             <div class="field">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email"
                        value="<?= htmlspecialchars($email) ?>"
-                       placeholder="jean@exemple.com">
+                       placeholder="robin@exemple.com">
             </div>
 
             <div class="field">
