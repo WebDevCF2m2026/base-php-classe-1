@@ -1,6 +1,8 @@
 <?php
-$Nom de Variable = 5;       // ❌ contient des espaces
-$123Nom_De_Variable = 3;    // ❌ commence par un chiffre
-$toto@mailcity.com = [];    // ❌ caractère spécial @
-$Nom-de-variable = "coucou";// ❌ signe - interdit (kebab-case)
-nom_de_variable = "Yes";    // ❌ ne commence pas par $
+$var_str = "hello world";
+$var_int = 4;
+$var_boolean = true;
+$var_float = 3.14;
+$var_name = "Badr";
+
+var_dump($var_str, $var_int, $var_boolean, $var_float, $var_name);

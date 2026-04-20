@@ -1,14 +1,19 @@
 <?php
-  // Code PHP en début de fichier
-  $date = date("Y-m-d H:i:s");
+date_default_timezone_set("Europe/Brussels");
+$dateCompleted = date("F j, Y, g:i a");
+$hour = date("H:i");
 ?>
+
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <title>Ma page - <?= date("H:i") ?></title>
+   
 </head>
 <body>
-  <h1>Date : <?= $date ?></h1>
-  <p>Il est <?= date("H:i:s") ?></p>
+   
+<title>Ma page - <?= $hour ?></title>
+<h1>Date : <?= $dateCompleted ?></h1>
+<p>Il est <?= $hour ?></p>
+
 </body>
 </html>
