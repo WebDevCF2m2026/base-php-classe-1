@@ -53,3 +53,8 @@ Créez le fichier 'config.php' à la racine du projet, il es protégé grâce au
 #### Création du controlleur frontal
 
 Le front controlleur, nommé 'MVC-19\public\index.php' est le seul fichier 'php' qui sera accessiblé à un utilisateur externe. 
+
+#### Création du config.php
+
+Il va devoir recréer config.php pour accéder aux constantes de sécurité.
+        cp config.ini.php config.php 
