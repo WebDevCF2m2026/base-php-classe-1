@@ -63,13 +63,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         .card {
             background: rgba(20, 20, 35, 0.9);
             border-radius: 18px;
-            padding: 36px;
-            max-width: 420px;
-            width: 100%;
+           padding: 24px;
+            max-width: 600px;
+            width: 600px;
             box-shadow:
                 0 0 0 1px rgba(98, 92, 255, 0.25),
                 0 20px 40px rgba(0, 0, 0, 0.5);
             backdrop-filter: blur(6px);
+
         }
 
         h1 {
@@ -190,19 +191,19 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <body>
 
 <div class="card">
-    <h1>calculatrice.php</h1>
+    
 
     <form method="POST">
         <div class="row">
             <div class="field">
-                <label>Valeur A</label>
+                <label>Valeur 1</label>
                 <input type="number" name="valeur1" step="any"
                        value="<?= htmlspecialchars($premiereValeur) ?>"
                        placeholder="4" required>
             </div>
-
+<br><br>
             <div class="field field-op">
-                <label>Op.</label>
+                <label>Opérateur</label>
                 <select name="operateur">
                     <?php foreach (['+', '-', '*', '/'] as $op): ?>
                         <option value="<?= $op ?>" <?= $operateur === $op ? 'selected' : '' ?>>
@@ -213,7 +214,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             </div>
 
             <div class="field">
-                <label>Valeur B</label>
+                <label>Valeur 2</label>
                 <input type="number" name="valeur2" step="any"
                        value="<?= htmlspecialchars($deuxiemeValeur) ?>"
                        placeholder="6" required>
