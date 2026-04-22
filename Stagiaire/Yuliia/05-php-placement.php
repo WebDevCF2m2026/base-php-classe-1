@@ -1,15 +1,21 @@
+
+
 <?php
-  $date =  date("F j, Y, g:i a");
+date_default_timezone_set("Europe/Brussels");
+$dateCompleted = date("F j, Y, g:i a");
+$hour = date("H:i");
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma page - <?= date("H:i") ?></title>
+   
 </head>
 <body>
-    <h1>Date : <?= date("F j, Y") ?></h1>
-  <p>Il est <?= date("g:i a") ?></p>
+   
+<title>Ma page - <?= $hour ?></title>
+<h1>Date : <?= $dateCompleted ?></h1>
+<p>Il est <?= $hour ?></p>
+
 </body>
 </html>

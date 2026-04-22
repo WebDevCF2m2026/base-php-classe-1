@@ -1,5 +1,5 @@
 <?php 
-$monTabAssoc = ["prenom" => "Michaël", "nom" => "Pitz", "caracteristique" => "égocentrique", "dateDeNaissance" => "1951-03-02"];
+$monTabAssoc = ["prenom" => "Badr", "nom" => "Dakir", "caracteristique" => "communiste", "dateDeNaissance" => "2000-03-02"];
 echo $monTabAssoc["prenom"];
 echo "<hr>";
 echo $monTabAssoc["nom"];
